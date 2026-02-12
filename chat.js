@@ -419,13 +419,13 @@ function processBotMessage(text) {
     
     // Ищем остальные метки
     const markerPatterns = [
-        { pattern: /\[START_QUESTIONS\]/g, type: 'START_QUESTIONS' },
-        { pattern: /\[MESSAGE_DIVIDER\]/g, type: 'MESSAGE_DIVIDER' },
-        { pattern: /\[ASK_MESSENGER\]/g, type: 'ASK_MESSENGER' },
-        { pattern: /\[NAME_INPUT\]/g, type: 'NAME_INPUT' },
-        { pattern: /\[PHONE_INPUT\]/g, type: 'PHONE_INPUT' },
-        { pattern: /\[REQUEST_ACCEPTED\]/g, type: 'REQUEST_ACCEPTED' },
-        { pattern: /\[SHOW_GALLERY\]/g, type: 'SHOW_GALLERY' }
+        { pattern: /\[\s*START_QUESTIONS\s*\]/g, type: 'START_QUESTIONS' },
+        { pattern: /\[\s*MESSAGE_DIVIDER\s*\]/g, type: 'MESSAGE_DIVIDER' },
+        { pattern: /\[\s*ASK_MESSENGER\s*\]/g, type: 'ASK_MESSENGER' },
+        { pattern: /\[\s*NAME_INPUT\s*\]/g, type: 'NAME_INPUT' },
+        { pattern: /\[\s*PHONE_INPUT\s*\]/g, type: 'PHONE_INPUT' },
+        { pattern: /\[\s*REQUEST_ACCEPTED\s*\]/g, type: 'REQUEST_ACCEPTED' },
+        { pattern: /\[\s*SHOW_GALLERY\s*\]/g, type: 'SHOW_GALLERY' }
     ];
     
     // Удаляем метки из текста и сохраняем их
