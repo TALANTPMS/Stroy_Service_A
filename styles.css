@@ -1321,7 +1321,7 @@ body {
     }
 
     .text-content {
-        margin-bottom: 60px;
+        margin-bottom: 57px;
         align-items:flex-start;
     }
 
@@ -1628,6 +1628,11 @@ body {
     .footer-links {
         font-size: 12px;
         gap: 4px;
+    }
+
+    .text-content {
+        margin-bottom: 14px;
+        align-items:flex-start;
     }
 
     .footer-logo-img {
@@ -2021,7 +2026,7 @@ body {
     }
 
     .text-content {
-        margin-bottom: 90px;
+        margin-bottom: 11px;
     }
 
     .connection-button {
