@@ -1321,7 +1321,8 @@ body {
     }
 
     .text-content {
-        margin-bottom: 57px;
+        margin-top: 40px;
+        margin-bottom: 65px;
         align-items:flex-start;
     }
 
@@ -1631,7 +1632,7 @@ body {
     }
 
     .text-content {
-        margin-bottom: 14px;
+        margin-bottom: 53px;
         align-items:flex-start;
     }
 
@@ -2026,7 +2027,7 @@ body {
     }
 
     .text-content {
-        margin-bottom: 11px;
+        margin-bottom: 60px;
     }
 
     .connection-button {
