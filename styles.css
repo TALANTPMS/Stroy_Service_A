@@ -1032,11 +1032,11 @@ body {
 }
 
 .cookie-link:hover {
-    color: #587560;
+    color: #F08C34;
 }
 
 .cookie-accept-btn {
-    background-color: #587560;
+    background-color: #F08C34;
     color: #fff;
     border: none;
     border-radius: 16px;
@@ -1051,7 +1051,7 @@ body {
 }
 
 .cookie-accept-btn:hover {
-    background-color: #7da488;;
+    background-color: #f1c49c;;
 }
 
 .cookie-accept-btn:active {
